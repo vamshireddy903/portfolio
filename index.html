@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vamshi. S | DevOps Engineer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
@@ -19,51 +19,84 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>DevOps Engineer</h2>
+  <!-- Hero / About -->
+  <section id="about" class="hero">
+    <h2>DevOps Engineer & Cloud Enthusiast</h2>
     <p>
-      Certified DevOps Engineer with hands-on expertise in CI/CD, Docker, Kubernetes, Terraform, and AWS.  
-      I design scalable, secure, and automated cloud solutions.
+      Certified DevOps Engineer passionate about building reliable, secure, and automated
+      cloud-native solutions. I specialize in <strong>CI/CD, Docker, Kubernetes, Terraform, AWS & Azure</strong>,
+      with a focus on Infrastructure as Code and GitOps-driven deployments.
     </p>
     <div class="buttons">
-      <a href="mailto:vamsir673@gmail.com" class="btn">📧 Email</a>
-      <a href="tel:+918073538317" class="btn outline">📱 Call</a>
+      <a class="btn" href="mailto:vamsir673@gmail.com">📧 Email</a>
+      <a class="btn outline" href="tel:+918073538317">📱 Call</a>
     </div>
   </section>
 
   <!-- Skills -->
   <section id="skills">
     <h3>⚡ Technical Skills</h3>
-    <div class="grid">
-      <div class="card">☁️ AWS, Azure</div>
-      <div class="card">⚙️ Jenkins, GitHub Actions, Argo CD</div>
-      <div class="card">🐳 Docker, Kubernetes, Terraform</div>
-      <div class="card">💻 Shell Scripting, Python</div>
-      <div class="card">🌐 VPC, Load Balancers, Security Groups</div>
-      <div class="card">📊 Prometheus, Grafana</div>
+    <div class="table-container">
+      <table>
+        <tr><td>Cloud Platforms</td><td>AWS, Azure</td></tr>
+        <tr><td>CI/CD Tools</td><td>Jenkins, GitLab CI, GitHub Actions, Argo CD</td></tr>
+        <tr><td>Container & Orchestration Tools</td><td>Docker, Kubernetes</td></tr>
+        <tr><td>Infrastructure as Code</td><td>Terraform, CFT</td></tr>
+        <tr><td>Scripting Languages</td><td>Shell Scripting, Python</td></tr>
+        <tr><td>Networking</td><td>VPC, Subnets, Security Groups, Load Balancers</td></tr>
+        <tr><td>Version Control</td><td>Git, GitHub</td></tr>
+        <tr><td>Operating Systems</td><td>Linux (Ubuntu, Amazon Linux)</td></tr>
+        <tr><td>Monitoring Tools</td><td>Prometheus, Grafana</td></tr>
+        <tr><td>Testing</td><td>Manual and Automation Testing</td></tr>
+        <tr><td>Relational Databases</td><td>SQL, MySQL</td></tr>
+        <tr><td>Project Management & Methodologies</td><td>Jira, Agile Methodology</td></tr>
+      </table>
     </div>
   </section>
 
   <!-- Projects -->
   <section id="projects">
     <h3>🚀 Projects</h3>
-    <div class="card">
-      <h4>End-to-End CI/CD Pipeline</h4>
-      <p>
-        Automated CI/CD pipeline for a Java web app using Jenkins, SonarQube, Docker, Kubernetes, Argo CD.  
-        Integrated monitoring with Prometheus & Grafana.
+
+    <!-- Project 1 -->
+    <article class="project-card">
+      <h4>End-to-End CI/CD Pipeline Implementation for Java Web Application</h4>
+      <p class="tools">
+        <strong>Tools:</strong> Jenkins, GitHub, Maven, SonarQube, Trivy, Docker, Nexus, Kubernetes, Argo CD, Prometheus, Grafana
       </p>
-    </div>
+      <ul class="points">
+        <li>Designed and implemented an automated CI/CD pipeline using Jenkins, triggered by GitHub webhooks.</li>
+        <li>Used Maven for build, unit testing, and packaging; integrated SonarQube for code quality checks.</li>
+        <li>Performed security scanning with Trivy, managed artifacts via Nexus and built versioned Docker images.</li>
+        <li>Deployed apps to Kubernetes clusters using Argo CD with GitOps practices.</li>
+        <li>Enforced Kubernetes security via Kube Audit and implemented monitoring with Prometheus and Grafana.</li>
+        <li>Configured Jenkins email notifications to alert teams on build and deployment status, improving visibility and response time.</li>
+      </ul>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-card">
+      <h4>Multi-Cloud Infrastructure Automation using Terraform with Remote State Management</h4>
+      <p class="tools">
+        <strong>Tools:</strong> Terraform, AWS (EC2, VPC, S3), Azure (VMs, VNets, Storage Accounts), Git, CLI
+      </p>
+      <ul class="points">
+        <li>Automated provisioning of infrastructure on AWS and Azure using Terraform Infrastructure as Code (IaC).</li>
+        <li>Structured Terraform code with modules to ensure reusability, scalability, and cleaner configuration management.</li>
+        <li>Configured remote backend state management with Azure Blob Storage and AWS S3 + DynamoDB, enabling secure and collaborative deployments with state locking.</li>
+        <li>Utilized Terraform workspaces to manage multiple environments like dev, staging, and production.</li>
+        <li>Integrated version control using Git to track infrastructure changes and enable collaborative development across teams.</li>
+      </ul>
+    </article>
   </section>
 
   <!-- Contact -->
   <section id="contact">
     <h3>📬 Contact Me</h3>
-    <p>I’m open to DevOps roles and collaborations.</p>
+    <p>I’m open to DevOps roles, collaborations, and cloud-native projects.</p>
     <div class="socials">
-      <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+      <a href="https://github.com/vamshireddy903" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/vamshi-s-b635782b5/" target="_blank">LinkedIn</a>
       <a href="mailto:vamsir673@gmail.com">Email</a>
     </div>
   </section>
